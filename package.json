@@ -1,18 +1,19 @@
 {
-  "name": "solidjstest",
-  "version": "1.0.0",
+  "name": "vite-template-solid",
+  "version": "0.0.0",
   "description": "",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^3.2.4"
+    "vite": "^4.0.3",
+    "vite-plugin-solid": "^2.5.0"
   },
   "dependencies": {
-    "madge": "^5.0.1"
+    "solid-js": "^1.6.6"
   }
 }
